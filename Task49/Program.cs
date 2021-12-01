@@ -7,7 +7,7 @@ void FillArray(double [,] matr)
     {
         for(int n=0; n<matr.GetLength(1); n++)
         {
-            matr[m,n]=new Random().NextDouble();
+            matr[m,n]=new Random().NextDouble()*100;
         Console.Write($"{matr[m,n]} ");
 
         }
